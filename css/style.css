@@ -1,0 +1,222 @@
+/* ==== Foundations ==== */
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f4ede0;
+    color: #2a1a10;
+}
+
+/* ==== Navigation bar ==== */
+.site-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo {
+    font-size: 26px;
+    font-style: italic;
+    text-decoration: none;
+    color: #3d1f1f
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #7a5c46;
+    font-size: 15px;
+}
+
+/* ==== Hero intro ==== */
+.hero {
+    padding: 40px 0 60px;
+    border-top: 2px solid #c46b3a;
+}
+
+.hero-eyebrow {
+    font-style: italic;
+    color: #c46b3a;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 18px;
+}
+
+.hero-text {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #7a5c46;
+    margin: 0;
+    max-width: 600px;
+}
+
+/* ==== Gallery grid ==== */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0 60px;
+}
+
+.art-card {
+    text-decoration: none;
+    color: #2a1a10;
+    display: block;
+    overflow: hidden;
+}
+
+.art-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.art-title {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* ==== Hover effects ==== */
+.art-card:hover img {
+    transform: scale(1.04);
+}
+
+/* ==== Lightbox ==== */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(20, 12, 6, 0.92);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+}
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox-img {
+    max-width: 85%;
+    max-height: 85%;
+    object-fit: contain;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px; right: 30px;
+    font-size: 40px;
+    color: #f4ede0;
+    cursor: pointer;
+}
+
+/* ===== About & Contact ===== */
+.about, .contact {
+  padding: 40px 0;
+  border-top: 2px solid #c46b3a;
+}
+
+.section-heading {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #c46b3a;
+  margin: 0 0 18px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #7a5c46;
+  margin: 0 0 16px;
+}
+
+.contact-text {
+  font-size: 19px;
+  line-height: 1.7;
+  color: #7a5c46;
+  margin: 0 0 16px;
+}
+
+.contact-email {
+  font-size: 24px;
+  font-style: italic;
+  color: #2a1a10;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.social-links a {
+  color: #7a5c46;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* ===== Page container ===== */
+.page {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ===== About photo layout ===== */
+.about-grid {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.about-photo {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+/* HANDLING PHONE SCREEN REZ */
+@media (max-width: 600px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: 38px;
+  }
+
+  .site-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
