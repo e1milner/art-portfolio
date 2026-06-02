@@ -26,7 +26,7 @@ fetch("data/artworks.json")
 
       gallery.appendChild(card);
     });
-  });
+  }); 
 
 // Close the lightbox
 lightbox.addEventListener("click", function () {
