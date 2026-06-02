@@ -1,23 +1,75 @@
 {
   "artworks": [
     {
-      "title": "Golden Hour",
-      "image": "https://placehold.co/400x500/a8536e/ffffff?text=Artwork+1", 
-      "category": "ICEBORN"
+      "image": "/images/uploads/mice-men.png",
+      "title": "Of Mice and Men",
+      "category": "Comics",
+      "description": ""
     },
     {
-      "title": "Deep Water",
-      "image": "https://placehold.co/400x500/2a5e7a/ffffff?text=Artwork+2", 
+      "image": "/images/uploads/olek-s-dad-1.png",
+      "title": "Olek's Dad 1",
       "category": "Comics"
     },
     {
-      "title": "Forest Edge",
-      "image": "https://placehold.co/400x500/3e6a32/ffffff?text=Artwork+3",
+      "image": "/images/uploads/olek-s-dad-2.png",
+      "title": "Olek's Dad 2",
+      "category": "Comics"
+    },
+    {
+      "image": "/images/uploads/50-51.png",
+      "title": "50-51",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/46-47.png",
+      "title": "46-47",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/44-45.png",
+      "title": "44-45",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/36-37.png",
+      "title": "36-37",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/34-35.png",
+      "title": "34-35",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/another-day.png",
+      "title": "Just Another Day",
+      "category": "Comics"
+    },
+    {
+      "image": "/images/uploads/changes.png",
+      "title": "Changes",
+      "category": "Comics"
+    },
+    {
+      "image": "/images/uploads/12-13.png",
+      "category": "ICEBORN",
+      "title": "12-13"
+    },
+    {
+      "image": "/images/uploads/editorial.png",
+      "category": "Illustrations",
+      "title": "Pay Kids to Read - Editorial"
+    },
+    {
+      "image": "/images/uploads/knight-1.png",
+      "title": "Knight 1",
       "category": "Illustrations"
     },
     {
-      "title": "test",
-      "image": "/images/uploads/img_0578.png"
+      "title": "Knight 2",
+      "image": "/images/uploads/knight-2.png",
+      "category": "Illustrations"
     }
   ]
 }
