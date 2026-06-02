@@ -1,3 +1,10 @@
+/* ===== Custom font ===== */
+@font-face {
+  font-family: "Jack Armstrong";
+  src: url("../fonts/Jack Armstrong BB.woff2") format("woff2");
+  font-display: swap;
+}
+
 /* ==== Color palette ==== */
 :root {  
   --color-bg: #ffffff;
@@ -6,6 +13,7 @@
   --color-accent: #286480;
   --color-line: #b0bec5;
   --color-hover-bg: #eceff1;
+  --font-display: "Jack Armstrong", Georgia, serif;
 }
 html {
   scroll-behavior: smooth;
@@ -28,7 +36,8 @@ body {
 }
 
 .logo {
-    font-size: 26px;
+    font-family: var(--font-display);
+    font-size: 45px;
     font-style: italic;
     text-decoration: none;
     color: var(--color-accent);
@@ -42,7 +51,8 @@ body {
 .nav-links a {
     text-decoration: none;
     color: var(--color-text-soft);
-    font-size: 15px;
+    font-size: 22px;
+    font-family: var(--font-display);
 }
 
 /* ==== Hero intro ==== */
@@ -59,10 +69,12 @@ body {
 }
 
 .hero-title {
-    font-size: 56px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 1.1;
     margin: 0 0 18px;
+    color: var(--color-text-soft);
+    
 }
 
 .hero-text {
@@ -179,8 +191,9 @@ body {
   border-top: 2px solid var(--color-accent);
 }
 
+/* ===== Section headings ===== */
 .section-heading {
-  font-size: 13px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--color-accent);
@@ -308,11 +321,28 @@ body {
   padding: 8px 18px;
   color: var(--color-text-soft);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 18px;
   white-space: nowrap;
 }
 
 .dropdown-menu a:hover {
   background: var(--color-hover-bg);
   color: var(--color-text);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 24px 40px;
+  margin-top: 60px;
+  border-top: 1px solid var(--color-line);
+  font-size: 13px;
+  color: var(--color-text-soft);
+}
+
+.footer-credit {
+  grid-column: 2;
+  text-align: center;
 }
