@@ -20,6 +20,12 @@
       "title": "test",
       "image": "/images/uploads/img_0578.png",
       "category": "Illustrations"
+    },
+    {
+      "image": "/images/uploads/mice-men.png",
+      "title": "Of Mice and Men",
+      "category": "Comics",
+      "description": ""
     }
   ]
 }
