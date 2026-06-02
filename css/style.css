@@ -1,3 +1,12 @@
+/* ==== Color palette ==== */
+:root {  
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-soft: #384247;
+  --color-accent: #286480;
+  --color-line: #b0bec5;
+  --color-hover-bg: #eceff1;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -6,8 +15,8 @@ html {
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', serif;
-    background-color: #f4ede0;
-    color: #2a1a10;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 /* ==== Navigation bar ==== */
@@ -22,7 +31,7 @@ body {
     font-size: 26px;
     font-style: italic;
     text-decoration: none;
-    color: #3d1f1f
+    color: var(--color-accent);
 }
 
 .nav-links {
@@ -32,19 +41,19 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #7a5c46;
+    color: var(--color-text-soft);
     font-size: 15px;
 }
 
 /* ==== Hero intro ==== */
 .hero {
     padding: 40px 0 60px;
-    border-top: 2px solid #c46b3a;
+    border-top: 2px solid var(--color-accent);
 }
 
 .hero-eyebrow {
     font-style: italic;
-    color: #c46b3a;
+    color: var(--color-accent);
     font-size: 16px;
     margin: 0 0 10px;
 }
@@ -59,7 +68,7 @@ body {
 .hero-text {
     font-size: 17px;
     line-height: 1.7;
-    color: #7a5c46;
+    color: var(--color-text-soft);
     margin: 0;
     max-width: 600px;
 }
@@ -74,7 +83,7 @@ body {
 
 .art-card {
     text-decoration: none;
-    color: #2a1a10;
+    color: var(--color-text);
     display: block;
     overflow: hidden;
 }
@@ -105,7 +114,7 @@ body {
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(20, 12, 6, 0.92);
+    background: rgba(20, 30, 40, 0.92);
     justify-content: center;
     align-items: center;
     z-index: 100;
@@ -132,35 +141,35 @@ body {
 /* ===== About & Contact ===== */
 .about, .contact {
   padding: 40px 0;
-  border-top: 2px solid #c46b3a;
+  border-top: 2px solid var(--color-accent);
 }
 
 .section-heading {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #c46b3a;
+  color: var(--color-accent);
   margin: 0 0 18px;
 }
 
 .about-text {
   font-size: 20px;
   line-height: 1.7;
-  color: #7a5c46;
+  color: var(--color-text-soft);
   margin: 0 0 16px;
 }
 
 .contact-text {
   font-size: 19px;
   line-height: 1.7;
-  color: #7a5c46;
+  color: var(--color-text-soft);
   margin: 0 0 16px;
 }
 
 .contact-email {
   font-size: 24px;
   font-style: italic;
-  color: #2a1a10;
+  color: var(--color-text);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 20px;
@@ -172,7 +181,7 @@ body {
 }
 
 .social-links a {
-  color: #7a5c46;
+  color: var(--color-text-soft);
   text-decoration: none;
   font-size: 18px;
 }
@@ -239,8 +248,8 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #f4ede0;
-  border: 1px solid #c46b3a;
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
   border-radius: 4px;
   padding: 8px 0;
   min-width: 150px;
@@ -262,13 +271,13 @@ body {
 .dropdown-menu a {
   display: block;
   padding: 8px 18px;
-  color: #7a5c46;
+  color: var(--color-text-soft);
   text-decoration: none;
   font-size: 14px;
   white-space: nowrap;
 }
 
 .dropdown-menu a:hover {
-  background: #e8dcc8;
-  color: #2a1a10;
+  background: var(--color-hover-bg);
+  color: var(--color-text);
 }
