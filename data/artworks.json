@@ -55,6 +55,21 @@
       "image": "/images/uploads/12-13.png",
       "category": "ICEBORN",
       "title": "12-13"
+    },
+    {
+      "image": "/images/uploads/editorial.png",
+      "category": "Illustrations",
+      "title": "Pay Kids to Read - Editorial"
+    },
+    {
+      "image": "/images/uploads/knight-1.png",
+      "title": "Knight 1",
+      "category": "Illustrations"
+    },
+    {
+      "title": "Knight 2",
+      "image": "/images/uploads/knight-2.png",
+      "category": "Illustrations"
     }
   ]
 }
