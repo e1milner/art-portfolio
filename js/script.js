@@ -2,6 +2,25 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.getElementById("lightbox-close");
 
+// Mobile: tap "Gallery" to toggle the dropdown menu
+const dropdown = document.querySelector(".dropdown");
+const dropdownToggle = document.querySelector(".dropdown-toggle");
+
+dropdownToggle.addEventListener("click", function (event) {
+  // Only intercept the tap on small screens
+  if (window.innerWidth <= 600) {
+    event.preventDefault();
+    dropdown.classList.toggle("open");
+  }
+});
+
+// Tapping a menu item closes the menu
+document.querySelectorAll(".dropdown-menu a").forEach(function (link) {
+  link.addEventListener("click", function () {
+    dropdown.classList.remove("open");
+  });
+});
+
 // Load the artwork list from the data file, then build the gallery
 fetch("data/artworks.json")
   .then(function (response) {
