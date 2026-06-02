@@ -40,6 +40,16 @@
       "image": "/images/uploads/34-35.png",
       "title": "34-35",
       "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/another-day.png",
+      "title": "Just Another Day",
+      "category": "Comics"
+    },
+    {
+      "image": "/images/uploads/changes.png",
+      "title": "Changes",
+      "category": "Comics"
     }
   ]
 }
