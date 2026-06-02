@@ -8,8 +8,8 @@ fetch("data/artworks.json")
   .then(function (response) {
     return response.json();
   })
-  .then(function (artworks) {
-    artworks.forEach(function (art) {
+  .then(function (data) {
+    data.artworks.forEach(function (art) {
       const card = document.createElement("a");
       card.className = "art-card";
       card.href = "#";
