@@ -2,12 +2,13 @@
   "artworks": [
     {
       "title": "Golden Hour",
-      "image": "https://placehold.co/400x500/a8536e/ffffff?text=Artwork+1", 
-      "category": "ICEBORN"
+      "image": "https://placehold.co/400x500/a8536e/ffffff?text=Artwork+1",
+      "category": "ICEBORN",
+      "description": "tes test test testtststst tst stst ttss tts ts ts t ts tsts s ts ts t st tststs ts tst t ststs ts ts ts ts t ststststs tsts "
     },
     {
       "title": "Deep Water",
-      "image": "https://placehold.co/400x500/2a5e7a/ffffff?text=Artwork+2", 
+      "image": "https://placehold.co/400x500/2a5e7a/ffffff?text=Artwork+2",
       "category": "Comics"
     },
     {
@@ -17,7 +18,8 @@
     },
     {
       "title": "test",
-      "image": "/images/uploads/img_0578.png"
+      "image": "/images/uploads/img_0578.png",
+      "category": "Illustrations"
     }
   ]
 }
