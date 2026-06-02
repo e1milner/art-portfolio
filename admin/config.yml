@@ -23,3 +23,4 @@ collections:
                 name: "category"
                 widget: "select"
                 options: ["ICEBORN", "Comics", "Illustrations"]
+              - { label: "Description", name: "description", widget: "text", required: false }

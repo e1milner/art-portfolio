@@ -1,6 +1,8 @@
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.getElementById("lightbox-close");
+const lightboxTitle = document.getElementById("lightbox-title");
+const lightboxDesc = document.getElementById("lightbox-desc");
 
 // Mobile: tap "Gallery" to toggle the dropdown menu
 const dropdown = document.querySelector(".dropdown");
@@ -45,6 +47,8 @@ fetch("data/artworks.json")
       card.addEventListener("click", function (event) {
         event.preventDefault();
         lightboxImg.src = art.image;
+        lightboxTitle.textContent = art.title;
+        lightboxDesc.textContent = art.description || "";
         lightbox.classList.add("open");
       });
 

@@ -75,11 +75,18 @@
     </div>
   </section>
   </div>
- <!-- Lightbox  overlay -->
+ <!-- Lightbox overlay -->
   <div class="lightbox" id="lightbox">
     <span class="lightbox-close" id="lightbox-close">&times;</span>
-    <img class="lightbox-img" id="lightbox-img" src="" alt="">
+    <div class="lightbox-content">
+      <img class="lightbox-img" id="lightbox-img" src="" alt="">
+      <div class="lightbox-caption">
+        <h3 class="lightbox-title" id="lightbox-title"></h3>
+        <p class="lightbox-desc" id="lightbox-desc"></p>
+      </div>
+    </div>
   </div>
+  
 <script src="js/script.js"></script>  
 <!-- Netlify Identity script for admin login -->
 <script>
