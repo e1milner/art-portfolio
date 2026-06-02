@@ -7,11 +7,6 @@
       "description": ""
     },
     {
-      "image": "/images/uploads/46-47.png",
-      "title": "46-47",
-      "category": "ICEBORN"
-    },
-    {
       "image": "/images/uploads/olek-s-dad-1.png",
       "title": "Olek's Dad 1",
       "category": "Comics"
@@ -24,6 +19,11 @@
     {
       "image": "/images/uploads/50-51.png",
       "title": "50-51",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/46-47.png",
+      "title": "46-47",
       "category": "ICEBORN"
     },
     {
