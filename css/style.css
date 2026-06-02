@@ -247,10 +247,17 @@ body {
   z-index: 50;
 }
 
-.dropdown:hover .dropdown-menu,
+/* Show on hover — only on devices with a real pointer (mouse) */
+@media (hover: hover) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Show when toggled open (used on touch) */
 .dropdown.open .dropdown-menu {
   display: block;
-}
+} 
 
 .dropdown-menu a {
   display: block;
