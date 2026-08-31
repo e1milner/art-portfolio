@@ -76,6 +76,12 @@
       "title": "ICEBORN COVER",
       "category": "ICEBORN",
       "description": "Cover of book with spine and back cover!"
+    },
+    {
+      "title": "False Gems Cover",
+      "image": "/images/uploads/thefalsegems.png",
+      "category": "Illustrations",
+      "description": "A story about couple living in France. The wife passes and the husband find out all the jewelry she owned is fake."
     }
   ]
 }
