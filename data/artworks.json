@@ -1,6 +1,12 @@
 {
   "artworks": [
     {
+      "image": "/images/uploads/template_for_comics.png",
+      "title": "ICEBORN COVER",
+      "category": "ICEBORN",
+      "description": "Cover of book with spine and back cover!"
+    },
+    {
       "image": "/images/uploads/mice-men.png",
       "title": "Of Mice and Men",
       "category": "Comics",
@@ -70,12 +76,6 @@
       "title": "Knight 2",
       "image": "/images/uploads/knight-2.png",
       "category": "Illustrations"
-    },
-    {
-      "image": "/images/uploads/template_for_comics.png",
-      "title": "ICEBORN COVER",
-      "category": "ICEBORN",
-      "description": "Cover of book with spine and back cover!"
     },
     {
       "title": "False Gems Cover",
