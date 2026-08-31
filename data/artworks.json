@@ -7,6 +7,36 @@
       "description": "Cover of book with spine and back cover!"
     },
     {
+      "image": "/images/uploads/12-13.png",
+      "category": "ICEBORN",
+      "title": "12-13"
+    },
+    {
+      "image": "/images/uploads/34-35.png",
+      "title": "34-35",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/36-37.png",
+      "title": "36-37",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/44-45.png",
+      "title": "44-45",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/46-47.png",
+      "title": "46-47",
+      "category": "ICEBORN"
+    },
+    {
+      "image": "/images/uploads/50-51.png",
+      "title": "50-51",
+      "category": "ICEBORN"
+    },
+    {
       "image": "/images/uploads/mice-men.png",
       "title": "Of Mice and Men",
       "category": "Comics",
@@ -23,31 +53,6 @@
       "category": "Comics"
     },
     {
-      "image": "/images/uploads/50-51.png",
-      "title": "50-51",
-      "category": "ICEBORN"
-    },
-    {
-      "image": "/images/uploads/46-47.png",
-      "title": "46-47",
-      "category": "ICEBORN"
-    },
-    {
-      "image": "/images/uploads/44-45.png",
-      "title": "44-45",
-      "category": "ICEBORN"
-    },
-    {
-      "image": "/images/uploads/36-37.png",
-      "title": "36-37",
-      "category": "ICEBORN"
-    },
-    {
-      "image": "/images/uploads/34-35.png",
-      "title": "34-35",
-      "category": "ICEBORN"
-    },
-    {
       "image": "/images/uploads/another-day.png",
       "title": "Just Another Day",
       "category": "Comics"
@@ -56,11 +61,6 @@
       "image": "/images/uploads/changes.png",
       "title": "Changes",
       "category": "Comics"
-    },
-    {
-      "image": "/images/uploads/12-13.png",
-      "category": "ICEBORN",
-      "title": "12-13"
     },
     {
       "image": "/images/uploads/editorial.png",
