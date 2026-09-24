@@ -207,6 +207,16 @@ body {
   margin: 0 0 16px;
 }
 
+.text-link {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.text-link:hover {
+  color: var(--color-text);
+}
+
 .contact-text {
   font-size: 19px;
   line-height: 1.7;

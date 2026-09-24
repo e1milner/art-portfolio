@@ -22,5 +22,5 @@ collections:
               - label: "Category"
                 name: "category"
                 widget: "select"
-                options: ["ICEBORN", "Comics", "Illustrations"]
+                options: ["ICEBORN", "Comics", "Illustrations", "Graphic Design"]
               - { label: "Description", name: "description", widget: "text", required: false }

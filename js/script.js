@@ -33,7 +33,8 @@ fetch("data/artworks.json")
     const grids = {
       "ICEBORN": document.querySelector("#iceborn .gallery"),
       "Comics": document.querySelector("#comics .gallery"),
-      "Illustrations": document.querySelector("#illustrations .gallery")
+      "Illustrations": document.querySelector("#illustrations .gallery"),
+      "Graphic Design": document.querySelector("#graphic-design .gallery")
     };
 
     data.artworks.forEach(function (art) {
