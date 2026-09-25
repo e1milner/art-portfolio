@@ -82,6 +82,24 @@
       "image": "/images/uploads/thefalsegems.png",
       "category": "Illustrations",
       "description": "A story about couple living in France. The wife passes and the husband finds out all the jewelry she owned is fake."
+    },
+    {
+      "image": "/images/uploads/artboard-1.png",
+      "title": "Cheez-It Snack Box",
+      "category": "Graphic Design",
+      "description": "Package Design. Making a concept of a snack size package for my favorite snack."
+    },
+    {
+      "image": "/images/uploads/tannerbhw.png",
+      "title": "Tanner B Run Logo",
+      "category": "Graphic Design",
+      "description": "Creating a new Logo for a non-profit organization in my home town."
+    },
+    {
+      "image": "/images/uploads/letterhead.png",
+      "title": "Letter Head for Tanner B Run",
+      "category": "Graphic Design",
+      "description": "Using the logo and making a letter head for it."
     }
   ]
 }
